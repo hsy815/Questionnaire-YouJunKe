@@ -31,11 +31,14 @@ import rx.subscriptions.CompositeSubscription
  * @修改人: hsy
  * @修改时间: 2020/4/8 15:21
  * @修改描述:
+ *
+ * id wx1487058f49bfb294
+ * 43019d8755e7383c6b575c569dae22f7
  */
 class WXEntryActivity : BaseActivity(), IWXAPIEventHandler {
     companion object {
-        val APP_ID = "wx1487058f49bfb294"
-        val SECRET = "43019d8755e7383c6b575c569dae22f7"
+        val APP_ID = ""
+        val SECRET = ""
     }
 
     private var mWXUserInfo: WXUserInfo? = null
