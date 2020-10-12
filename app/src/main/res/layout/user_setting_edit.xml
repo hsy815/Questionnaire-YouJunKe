@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/user_setting_edit"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/user_setting_edit_text"
+            style="@style/setting_lin_title_style"
+            android:gravity="left|center_vertical"
+            android:minWidth="100dp" />
+
+        <EditText
+            android:id="@+id/user_setting_edit_ed"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toEndOf="@+id/user_setting_edit_text"
+            android:background="@null"
+            android:textColor="@color/login_hello_t"
+            android:hint="@string/user_setting_edit"
+            android:textSize="@dimen/l_p_wx" />
+
+    </RelativeLayout>
+
+    <include layout="@layout/left_lin" />
+</LinearLayout>

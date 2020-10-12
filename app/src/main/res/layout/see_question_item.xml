@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/see_question_item"
+    android:layout_width="match_parent"
+    android:layout_height="83dp"
+    android:layout_marginTop="25dp"
+    android:background="@android:color/white">
+
+    <View
+        android:id="@+id/see_question_item_ll"
+        android:layout_width="3dp"
+        android:layout_height="match_parent"
+        android:background="@color/login_line_bg" />
+
+    <LinearLayout
+        android:id="@+id/see_question_item_rl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/see_question_item_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="未通过"
+            android:textColor="@color/l_p_wx"
+            android:textSize="10sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="30dp"
+            android:src="@mipmap/next" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toStartOf="@+id/see_question_item_rl"
+        android:layout_toEndOf="@+id/see_question_item_ll"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingStart="29dp">
+
+        <TextView
+            android:id="@+id/see_question_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="问卷标题"
+            android:textColor="@color/login_hello_t"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/see_question_item_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:text="2020-05-28"
+            android:textColor="@color/replace_code_text"
+            android:textSize="12sp" />
+    </LinearLayout>
+</RelativeLayout>

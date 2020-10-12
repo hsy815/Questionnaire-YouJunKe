@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".activity.ReplacePhoneActivity">
+
+    <include layout="@layout/best_top_layout" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="45dp"
+        android:src="@mipmap/phone_icon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/replace_phone_text"
+        android:textColor="@color/login_hello_t"
+        android:textSize="@dimen/l_p_wx" />
+
+    <TextView
+        android:id="@+id/replace_phone_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/l_p_wx"
+        android:textSize="@dimen/main_nickname" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="40dp"
+        android:background="#203BC3CF"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:text="@string/replace_phone_text1"
+            android:textColor="@color/login_hello_t"
+            android:textSize="@dimen/setting_right_text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/replace_phone_text2"
+            android:textColor="@color/login_hello_t"
+            android:textSize="@dimen/setting_right_text" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/replace_phone_btn"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/replace_phone_text_bg"
+        android:gravity="center"
+        android:text="@string/replace_phone_button"
+        android:textColor="@drawable/login_plus_btn_text"
+        android:textSize="@dimen/l_p_wx" />
+</LinearLayout>

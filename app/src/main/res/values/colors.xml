@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3CC3CE</color>
+    <color name="colorPrimaryDark">#3CC3CE</color>
+    <color name="colorAccent">#0C6F77</color>
+    <color name="l_p_wx">#3BC3CF</color>
+    <color name="l_p_wx_50">#503BC3CF</color>
+    <color name="login_edit_bg">#EEEEEE</color>
+    <color name="login_line_bg">#D8D8D8</color>
+    <color name="login_hello_t">#1D1D1D</color>
+    <color name="main_open_num">#0C6F77</color>
+    <color name="main_button_text">#333333</color>
+    <color name="replace_code_text">#999999</color>
+    <color name="left_lin">#F2F2F2</color>
+    <color name="setting_hint">#C9C9C9</color>
+    <color name="tips_text">#FFDB6D</color>
+    <color name="tips_bg">#80000000</color>
+    <color name="see_state_red">#FF6C76</color>
+</resources>

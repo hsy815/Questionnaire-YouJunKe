@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="l_p_w">33sp</dimen>
+    <dimen name="l_p_wx">16sp</dimen>
+    <dimen name="login_ed_text">16sp</dimen>
+    <dimen name="login_hello_t">24sp</dimen>
+    <dimen name="start_text">24sp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="main_nickname">20sp</dimen>
+    <dimen name="main_personal">10sp</dimen>
+    <dimen name="main_open_num">16sp</dimen>
+    <dimen name="main_input_text1">15sp</dimen>
+    <dimen name="main_input_text2">11sp</dimen>
+    <dimen name="main_open_num_text">8sp</dimen>
+    <dimen name="setting_right_text">12sp</dimen>
+    <dimen name="top_right">18sp</dimen>
+    <dimen name="main_elevation">2dp</dimen>
+</resources>

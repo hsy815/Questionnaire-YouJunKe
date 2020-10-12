@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/user_setting_head"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/user_setting_head_text"
+            style="@style/setting_lin_title_style"
+            android:gravity="left|center_vertical"
+            android:minWidth="100dp" />
+
+        <com.biotecan.questionnaire.view.CircleImageView
+            android:id="@+id/user_setting_head_img"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="15dp"
+            android:src="@drawable/head_bg" />
+
+        <TextView
+            android:id="@+id/user_setting_head_ed"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toStartOf="@+id/user_setting_head_img"
+            android:layout_toEndOf="@+id/user_setting_head_text"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:hint="点击更换"
+            android:textSize="@dimen/l_p_wx" />
+    </RelativeLayout>
+
+    <include layout="@layout/left_lin" />
+</LinearLayout>
